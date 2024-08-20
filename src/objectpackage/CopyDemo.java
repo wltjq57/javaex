@@ -7,7 +7,7 @@ public class CopyDemo {
     copyByValue(ten);
     System.out.println("ten의 값을 수정하는 메소드 호출 후 " + ten);
 
-    Circle c1 = new Circle(); // 0x100 클래스이름 변수 = new 클래스이름();
+    Circle c1 = new Circle(1); // 0x100 클래스이름 변수 = new 클래스이름();
     System.out.println("Circle1의 반지름을 수정하는 메소드 호출 전 " + c1.getRadius());
     ByReference(c1);
     System.out.println("Circle1의 반지름을 수정하는 메소드 호출 후 " + c1.getRadius());

@@ -4,6 +4,15 @@ class Circle {
   // 필드 - 캡슐화 전
   static final double PI = Math.PI;
   private int radius = 1; // 반지름 초기 값에 영향
+
+  public Circle(int radius) {
+    if(radius <= 0){
+      System.out.println("원의 반지름은 0보다 커야 합니다.");
+    } else {
+      this.radius = radius;
+    }
+
+  }
   // 생성자 (기본생성자,~~~)
 
   // 메서드

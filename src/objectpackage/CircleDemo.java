@@ -2,7 +2,7 @@ package objectpackage;
 
 public class CircleDemo {
   public static void main(String[] args) {
-    Circle c1 = new Circle(); // // 클래스이름 변수 = new 클래스이름();
+    Circle c1 = new Circle(10); // // 클래스이름 변수 = new 클래스이름();
     int radius = c1.getRadius();
     double area;
     System.out.println("원의 반지름 초기 값 : " + radius);

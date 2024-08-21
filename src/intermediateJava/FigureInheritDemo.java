@@ -9,7 +9,7 @@ public class FigureInheritDemo {
 }
 
 class Figure {
-  private int poly;
+  public int poly = 3;
   public double getArea(){
     return 0.0;
   }
